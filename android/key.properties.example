@@ -1,0 +1,16 @@
+# COPY THIS FILE TO android/key.properties AND FILL IN YOUR OWN VALUES.
+#
+#   cd <project folder>/android
+#   cp key.properties.example key.properties
+#
+# key.properties and the .jks it points at are listed in .gitignore, so they
+# never reach GitHub. Never commit a real password here, and never paste these
+# values into a chat, an issue, or a screenshot.
+#
+# storeFile is relative to the android/ folder (or an absolute path).
+# Generate the keystore once — see docs/BUILD_ANDROID.md, step 1.
+
+storeFile=masti-gurukul-upload.jks
+storePassword=change-this-keystore-password
+keyAlias=masti_gurukul
+keyPassword=change-this-key-password
